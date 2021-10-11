@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- * ┃                            Exercise 2                        ┃
+ * ┃                        Exercise 2 Test                       ┃
  * ┃      title: Leap Year                                        ┃
  * ┃    version: 1.0                                              ┃
  * ┃     author: Federico Sanders <federico.sanders@hotmail.com>  ┃
