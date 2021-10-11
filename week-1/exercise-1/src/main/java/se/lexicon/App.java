@@ -14,10 +14,10 @@ import se.lexicon.entity.Student;
 public class App {
 
     public static void whoAmI(){
+        System.out.println("Hello");
         System.out.println( new Student.StudentBuilder().withFirstName("Federico").withLastName("Sanders").build() );
     }
     public static void main( String[] args ) {
-        System.out.println( "Hello" );
         whoAmI();
     }
 }
