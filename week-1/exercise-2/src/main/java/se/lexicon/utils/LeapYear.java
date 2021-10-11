@@ -15,9 +15,9 @@ public class LeapYear {
     }
 
     public static void run(){
-        int year = readInput(new Scanner(System.in));
-        String u = isLeapYear(year);
-        System.out.print(u);
+        int input = readInput(new Scanner(System.in));
+        String result = isLeapYear(input);
+        System.out.print(result);
     }
 
     private static int readInput(Scanner scanner){
@@ -31,9 +31,9 @@ public class LeapYear {
         } while(true);
     }
 
-    public static String isLeapYear(int year){
-        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0
-                ? "Year " + year + " is Leap Year"
-                : "Year " + year + " is not a Leap Year";
+    public static String isLeapYear(int input){
+        return input % 4 == 0 && input % 100 != 0 || input % 400 == 0
+                ? "Year " + input + " is Leap Year"
+                : "Year " + input + " is not a Leap Year";
     }
 }
