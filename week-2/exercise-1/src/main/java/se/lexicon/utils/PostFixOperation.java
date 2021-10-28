@@ -25,7 +25,7 @@ public class PostFixOperation {
     public static void run(String[] a){
         String[] postFixExpression = toPostFix(a);
         int result = resolvePostFix(postFixExpression);
-        System.out.print("\t\uD835\uDDE5\uD835\uDDD8\uD835\uDDE6\uD835\uDDE8\uD835\uDDDF\uD835\uDDE7: " + result + "\n\n");
+        System.out.print("\tRESULT: " + result + "\n\n");
     }
 
     private static int resolvePostFix(String[] input) {

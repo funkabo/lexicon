@@ -25,7 +25,7 @@ public class Calculator {
     private static String INFORMATION = "src/main/resources/information";
     private static String BANNER = "src/main/resources/banner";
     private static String MENU = "src/main/resources/menu";
-    private static String INPUT_PROMPT = "  \t\uD835\uDDDC\uD835\uDDE1\uD835\uDDE3\uD835\uDDE8\uD835\uDDE7:~$ ";
+    private static String INPUT_PROMPT = "  \tINPUT:~$ ";
     private static String CLEAR_SCREEN = "\033\143";
     private static boolean isRunning = true;
 
